@@ -92,7 +92,7 @@ body {
   font-size: 1em;
   line-height: 1.65;
   color: rgba(255, 255, 255, 0.5);
-  background-color: #272727;
+  background-color: dimgray;
 }
 
 ::-webkit-scrollbar {
@@ -630,10 +630,10 @@ label.error {
   z-index: 4;
   left: 0;
   top: 0;
-  width: 39.47vmin;
-  height: 40.7vmin;
+  width: 31.47vmin;
+  height: 31.7vmin;
   padding: 4.8vmin 2em 4.8vmin;
-  background-color: #2b2b2b;
+  background-color: rgba(41, 41, 41, 0.5);
   text-align: center;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -650,7 +650,7 @@ label.error {
 }
 
 .brand img {
-  width: 14rem;
+  width: 18rem;
 }
 
 .brand:hover,
@@ -744,7 +744,7 @@ label.error {
 .vertical-panel {
   z-index: 3;
   height: 10000px;
-  background-color: #2b2b2b;
+  background-color: rgba(41, 41, 41, 0.2);
 }
 
 .vertical-panel-content {
@@ -795,7 +795,7 @@ label.error {
 
 .social-list .fa {
   font-size: 2.4vmin;
-  color: #606060;
+  color: #fff;
 }
 
 .social-list .fa:hover {
@@ -850,7 +850,7 @@ label.error {
 
 .navbar-desctop-menu li a:hover,
 .navbar-desctop-menu .active>a {
-  color: orange;
+  color: greenyellow;
 }
 
 .navbar-desctop-menu>li {
@@ -1854,15 +1854,14 @@ img.mfp-img {
 .text-parallax-content {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 7.8em;
+  font-size: 3.8em;
   line-height: 1;
   overflow: hidden;
   margin-bottom: 0;
-  background: #272727;
+  background: dimgray;
   color: #fff;
   mix-blend-mode: darken;
   -ms-mix-blend-mode: darken;
-  padding-bottom: 17px;
 }
 
 .experience-info {
